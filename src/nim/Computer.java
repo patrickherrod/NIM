@@ -14,7 +14,7 @@ public class Computer {
 	 * @param sticks - the number of sticks in the pile
 	 */
 	public static int takeTurn(int sticks) {
-		int holder = 0;
+		int holder = 10;
 		if(sticks < 4) {		//if there are 3 or less sticks in the pile, then take that many number of sticks
 			holder = sticks;
 		}
